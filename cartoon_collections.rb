@@ -42,6 +42,9 @@ end
 
 def find_the_cheese(cheesies)
   things = ["cheddar", "gouda", "camembert"]
+  cheesies.each do |x|
+    return x if things.include(x)
+  
   return x if cheesies.each do |x|
     things.include?(x)
   end
