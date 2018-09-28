@@ -46,5 +46,6 @@ def find_the_cheese(cheesies)
     things.include?(x)
     return x 
   end
+end
   nil
 end
